@@ -1,0 +1,56 @@
+.install-application-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+.install-application-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.25rem;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+
+.install-application-image-wrapper{
+    width: 15%;
+    padding: 1rem;
+    max-height: 30%;
+}
+
+.install-application-image{
+    object-fit: contain;
+    object-position: center;
+}
+
+.install-application-title-wrapper {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.install-application-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.install-applcation-title-button-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.install-applcation-description{
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pwd-content{
+    font-size: 30px;
+    color: brown;
+}
