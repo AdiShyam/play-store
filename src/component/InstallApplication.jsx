@@ -33,7 +33,6 @@ class InstallApplication extends React.Component {
 
     renderContent(applcaiton) {
         const {title, image, description, installationState, ispwa} = applcaiton;
-        debugger;
         console.log("the applcaiton isss", applcaiton);
         return (
             <div className = "install-application-wrapper">
@@ -46,12 +45,6 @@ class InstallApplication extends React.Component {
                             {title}
                         </div>
                         <div className = "install-applcation-title-button-wrapper">
-                            {/* <button className="install-applcation-title-button-open custom-button">
-                                Open
-                            </button>
-                            <button className="install-applcation-title-button-uninstall custom-button">
-                                uninstall
-                            </button> */}
                             {this.renderbuttons(installationState)}
                         </div>
                     </div>

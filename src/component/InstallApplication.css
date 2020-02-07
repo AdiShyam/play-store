@@ -22,7 +22,8 @@
     max-height: 30%;
 }
 
-.install-application-image{
+.install-application-image {
+    border-radius: 30px;
     object-fit: contain;
     object-position: center;
 }
@@ -43,6 +44,7 @@
 .install-applcation-title-button-wrapper{
     display: flex;
     justify-content: space-around;
+    width: 80%;
 }
 
 .install-applcation-description{

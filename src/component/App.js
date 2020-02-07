@@ -5,6 +5,7 @@ import {Router, Switch, Route} from 'react-router-dom';
 import history from '../history';
 import CategoryContainer from './Category-Container';
 import InstallApplication from './InstallApplication';
+import jsonPlaceHolder, {getData} from '../APIs/jsonPlaceHolder';
 
 class App extends React.Component {
 
@@ -16,8 +17,12 @@ class App extends React.Component {
       applicationSelected: {}
     }
   } 
+  componentDidMount = async() => {
+    // debugger;
+    // const response = await getData("http://localhost:6555/v1/list?categories=All");
+    // console.log("the response is s", response);
+    // debugger;
 
-  componentDidMount() {
     let appStoreList = [];
     const appStoreObject = {};
     const applciationCategory = ["Social", "Music", "Video", "Travel", "Tools", "Games", "Shopping" , "Photos", "Reading", "Sports", "Health", "Education"]
@@ -51,7 +56,7 @@ class App extends React.Component {
         <Router history = {history} >
           <Switch>
             <Route exact path="/" render={() => <CategoryContainer appStoreObject={this.state.appStoreObject} selectedApp = {this.handleSelectedApp} />} />
-            <Route path="/:id" render={() => <InstallApplication application={this.state.applicationSelected} />} />
+            <Route path="/person/:id" render={() => <InstallApplication application={this.state.applicationSelected} />} />
           </Switch>
         </Router>
       </div>

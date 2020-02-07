@@ -21,7 +21,7 @@ class ApplicationList extends React.Component {
             // console.log("this is appStore data", appStoreList);
             return ( appStoreList.map((application) => {
                 const { title } = application;
-                return (<Link className="application-list-Link" to={`/${category}/${title}`} key={title} id={title}
+                return (<Link className="application-list-Link" to={`/person/${category}/${title}`} key={title} id={title}
                     onClick = {this.handleAppCick} >
                     <AppThumbNail selectedApp= {this.handleAppCick} key={title} appData={application} />
                 </Link>)
