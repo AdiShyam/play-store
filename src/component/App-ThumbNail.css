@@ -1,7 +1,17 @@
-.thumb-nail-image{
-
-}
 
 .thumb-nail-container {
-  border-radius: 30px;
-}
+    justify-content: center;
+  }
+  
+  .thumb-nail-image {
+    padding: 0.25rem;
+    border-radius: 30px;
+    background-size: contain;
+  }
+  
+  .thumb-nail-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
