@@ -6,7 +6,7 @@ class AppThumbNail extends React.Component {
     renderThumbNail = (appData) => {
         return (
         <div>
-            <img className ="thumb-nail-image" src = {appData.image} alt={appData.title}/>
+            <img className ="thumb-nail-image" src = {appData.icons[0].src} alt={appData.title}/>
         </div>)
     }
 

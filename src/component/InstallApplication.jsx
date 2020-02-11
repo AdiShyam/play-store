@@ -32,13 +32,14 @@ class InstallApplication extends React.Component {
     }
 
     renderContent(applcaiton) {
-        const {title, image, description, installationState, ispwa} = applcaiton;
+        const {title, icons, description, installationState, isPwa} = applcaiton;
         console.log("the applcaiton isss", applcaiton);
+        debugger
         return (
             <div className = "install-application-wrapper">
                 <div className = "install-application-header">
                     <div className= "install-application-image-wrapper">
-                        <img className = "install-application-image" src={image} alt={title} />
+                        <img className = "install-application-image" src={icons[0].src} alt={title} />
                     </div>
                     <div className = "install-application-title-wrapper">
                         <div className="install-application-title">
@@ -48,7 +49,7 @@ class InstallApplication extends React.Component {
                             {this.renderbuttons(installationState)}
                         </div>
                     </div>
-                    {this.isPWA(ispwa)}
+                    {this.isPWA(isPwa)}
                 </div>
                 <div className="install-applcation-description">
                     Description: <br />

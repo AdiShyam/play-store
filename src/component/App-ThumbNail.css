@@ -6,6 +6,8 @@
   .thumb-nail-image {
     padding: 0.25rem;
     border-radius: 30px;
+    height:100px;
+    width: 100px;
     background-size: contain;
   }
   
@@ -13,5 +15,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
   }
   

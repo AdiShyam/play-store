@@ -1,11 +1,11 @@
 import React from 'react';
-import faker from 'faker';
+import data from "../data";
 import './App.css';
 import {Router, Switch, Route} from 'react-router-dom';
 import history from '../history';
 import CategoryContainer from './Category-Container';
 import InstallApplication from './InstallApplication';
-import jsonPlaceHolder, {getData} from '../APIs/jsonPlaceHolder';
+import { getData } from '../APIs/jsonPlaceHolder';
 
 class App extends React.Component {
 
@@ -18,30 +18,28 @@ class App extends React.Component {
     }
   } 
   componentDidMount = async() => {
-    // debugger;
-    // const response = await getData("http://localhost:6555/v1/list?categories=All");
-    // console.log("the response is s", response);
-    // debugger;
-
+    // let response = await getData("http://136.18.212.65:6555/v1/list?categories=All"); //rajesh IP
+    let response = data;
+    let applicationMap = new Map();
     let appStoreList = [];
     const appStoreObject = {};
-    const applciationCategory = ["Social", "Music", "Video", "Travel", "Tools", "Games", "Shopping" , "Photos", "Reading", "Sports", "Health", "Education"]
-    applciationCategory.forEach(category => {
-      let randomNumber = Math.floor(Math.random() * 20) + 1;
-      appStoreList = [];
-      for (let i=0; i<randomNumber; i++) {
-        let application = {};
-        application.ispwa = true;
-        application.title = faker.name.findName();
-        application.image = faker.image.avatar();
-        application.installationState = (Boolean(Math.round(Math.random())))? "installed": "uninstalled";
-        application.developerName = faker.name.findName();
-        application.description = faker.lorem.paragraphs();
-        appStoreList.push(application);
+    let applicationList = response;
+    let mapvalue =[];
+    for (let i = 0; i < applicationList.length; i++) {
+      if(applicationMap.has(applicationList[i].genres)) {
+          mapvalue = applicationMap.get(applicationList[i].genres);
+          mapvalue.push(applicationList[i]);
+        applicationMap.set(applicationList[i].genres, mapvalue)
+      } else {
+        applicationMap.set(applicationList[i].genres, [applicationList[i]]);
       }
-      appStoreObject[category] = appStoreList;
-    });
-    this.setState({ appStoreObject, appStoreList });
+    }
+
+    for (let [key, value] of applicationMap) {
+      appStoreObject[key] = value;
+    }
+
+    this.setState({ appStoreObject });
   }
 
   handleSelectedApp = (applicationSelected) => {
@@ -52,7 +50,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="app-store-header">App Store</header>
         <Router history = {history} >
           <Switch>
             <Route exact path="/" render={() => <CategoryContainer appStoreObject={this.state.appStoreObject} selectedApp = {this.handleSelectedApp} />} />

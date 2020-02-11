@@ -18,7 +18,6 @@ class ApplicationList extends React.Component {
 
     renderAppList(appStoreList, category) {
         if(appStoreList) {
-            // console.log("this is appStore data", appStoreList);
             return ( appStoreList.map((application) => {
                 const { title } = application;
                 return (<Link className="application-list-Link" to={`/person/${category}/${title}`} key={title} id={title}

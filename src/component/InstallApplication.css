@@ -26,6 +26,8 @@
     border-radius: 30px;
     object-fit: contain;
     object-position: center;
+    height: 100px;
+    width: 100px;
 }
 
 .install-application-title-wrapper {
