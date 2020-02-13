@@ -5,11 +5,11 @@
 }
 
 .app-store-header {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  /* color: automatic; */
   text-align: center;
   font-size: 50px;
   margin: 2% 4%;
+  font-family: cursive;
   padding: 0.5rem;
 }
 
@@ -23,5 +23,6 @@
 
 .application-list-Link {
   /* flex: 1 0 15%; */
+  padding: 2rem;
   margin: 5px;
 }

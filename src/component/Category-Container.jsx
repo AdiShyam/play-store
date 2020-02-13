@@ -19,9 +19,12 @@ class CategoryContainer extends React.Component {
         const containerDOM = []
         for (var category in appStoreObject) {
             containerDOM.push(
-                <div className="category-container-wrapper" key={category}>
-                    <div className = "category-container-title thumb-nail-title">{category}</div>
-                    <ApplicationList selectedApplication = {this.handleSelectedApp} category = {category} appListData={appStoreObject[category]} />
+                <div key={category}>
+                    <div className="category-container-wrapper" key={category}>
+                        <div className="category-container-title thumb-nail-title">{category}</div>
+                        <ApplicationList selectedApplication={this.handleSelectedApp} category={category} appListData={appStoreObject[category]} />
+                    </div>
+                    <hr className="seperator" />
                 </div>
             );
         }
@@ -32,8 +35,9 @@ class CategoryContainer extends React.Component {
     render() {
         return (
             <div className = "category-container">
-                <header className="app-store-header">App Store</header>
+                <header className="app-store-header">Visteon App Store</header>
                 {this.renderCategoryContainer(this.props.appStoreObject)}
+                
             </div>
         )
     }

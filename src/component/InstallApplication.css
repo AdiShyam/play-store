@@ -16,6 +16,10 @@
     border-radius: 35px;
 }
 
+.install-application-back {
+    width: 10%;
+}
+
 .install-application-image-wrapper{
     width: 15%;
     padding: 1rem;
@@ -57,4 +61,5 @@
 .pwd-content{
     font-size: 30px;
     color: brown;
+    font-family: cursive;
 }

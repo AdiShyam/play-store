@@ -16,12 +16,15 @@ class App extends React.Component {
       appStoreObject: {},
       applicationSelected: {}
     }
-  } 
+  }
+
   componentDidMount = async() => {
-    // let response = await getData("http://136.18.212.65:6555/v1/list?categories=All"); //rajesh IP
-    let response = data;
+    let response = await getData("http://192.168.1.117:6555/v1/list?categories=All"); //rajesh IP
+    console.log("response is", response);
+    if( response === undefined) {
+      response = data;
+    }
     let applicationMap = new Map();
-    let appStoreList = [];
     const appStoreObject = {};
     let applicationList = response;
     let mapvalue =[];

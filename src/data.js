@@ -14,6 +14,188 @@ const jsonData = [
     "genres": "Games"
   },
   {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
+    "title": "Trivago",
+    "url": "https://www.trivago.in/",
+    "icons": [
+      {
+        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
+    "developerName": "Trivago",
+    "installationState": "installed",
+    "genres": "Games"
+  },
+  {
     "title": "BookMyShow",
     "url": "https://in.bookmyshow.com/",
     "icons": [
