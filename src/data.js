@@ -1,213 +1,48 @@
 const jsonData = [
   {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
+    "title": "Twitter",
+    "url": "https://mobile.twitter.com/",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+        "src": "https://abs.twimg.com/responsive-web/web/icon-default.3c3b2244.png"
       }
     ],
     "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
+    "description": "Its whats happening. From breaking news and entertainment, sports and politics, to big events and everyday interests..",
+    "developerName": "Twitter",
     "installationState": "installed",
-    "genres": "Games"
+    "genres": "Social",
+    "region": "India"
   },
   {
     "title": "Trivago",
     "url": "https://www.trivago.in/",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+        "src": "https://www.trivago.in/favicon_512x512.png"
       }
     ],
     "isPwa": 1,
     "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
     "developerName": "Trivago",
     "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
-  },
-  {
-    "title": "Trivago",
-    "url": "https://www.trivago.in/",
-    "icons": [
-      {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
-      }
-    ],
-    "isPwa": 1,
-    "description": "Every month 120+ million visitors use trivago to search & compare hotel prices, read reviews & browse photos. Find your ideal hotel deal on trivago.com",
-    "developerName": "Trivago",
-    "installationState": "installed",
-    "genres": "Games"
+    "genres": "Travel",
+    "region": "India"
   },
   {
     "title": "BookMyShow",
     "url": "https://in.bookmyshow.com/",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688811564-trivago-apple-touch-icon.png"
+        "src": "https://in.bmscdn.com/m6/images/icons/new-logo-512.png"
       }
     ],
     "isPwa": 1,
     "description": "Wide Range of Cinema Listings Across India. Check Latest Show Timings Online! Enjoy Great Discounts and Offers while Booking Movie Tickets Online on BookMyShow",
     "developerName": "BookMyShow",
     "installationState": "installed",
-    "genres":"Games"
+    "genres": "Entertainment",
+    "region": "India"
   },
   {
     "title": "Uber",
@@ -221,35 +56,38 @@ const jsonData = [
     "description": "No app download required for an affordable, reliable Uber ride. It's easy: Sign up or login, tap a button, take a ride in minutes. Get multiple vehicle options - 24-hour support - different payment options. Book on the web today.",
     "developerName": "Uber",
     "installationState": "installed",
-    "genres":"Games"
+    "genres": "Travel",
+    "region": "Global"
   },
   {
     "title": "Treebo",
     "url": " https://www.treebo.com/",
     "icons": [
       {
-        "src": "https://images.treebohotels.com/images/hotrod/treebo-new-logo-white.svg"
+        "src": "http://images.treebohotels.com/images/Icons/pwa-icon.png?h=512&w=512"
       }
     ],
     "isPwa": 1,
     "description": "600+ Treebo Hotels that promise quality budget stays across 100+ cities in India",
     "developerName": "Treebo",
     "installationState": "installed",
-    "genres":"Music"
+    "genres": "Travel",
+    "region": "India"
   },
   {
     "title": "Flipkart",
     "url": "https://www.flipkart.com",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688845004-flipkartlite-logo_lite-cbb3574d.png"
+        "src": "https://img1a.flixcart.com/batman-returns/batman-returns/images/logo_lite-cbb357.png"
       }
     ],
     "isPwa": 1,
     "description": "India's most popular shopping destination. Trusted by over 7 Crore Indians. Shop the Online Megastore with the Flipkart web app. Choose from the massive selection of original products in Fashion, Electronics, Books, Mobiles and other categories.",
     "developerName": "Flipkart",
     "installationState": "installed",
-    "genres":"Music"
+    "genres": "Shopping",
+    "region": "India"
   },
   {
     "title": "OlaCabs",
@@ -263,49 +101,53 @@ const jsonData = [
     "description": "Now book city taxi, share, rental and outstation directly from web.",
     "developerName": "OlaCabs",
     "installationState": "installed",
-    "genres":"Music"
+    "genres": "Travel",
+    "region": "India"
   },
   {
     "title": "MakeMyTrip",
     "url": "https://www.makemytrip.com/",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1536300042472-makemytrip-mmt_launcher_512x512.png"
+        "src": "https://imgak.mmtcdn.com/pwa/assets/img/mmt_launcher_512x512.png"
       }
     ],
     "isPwa": 1,
     "description": "MakeMyTrip Commons PWA.",
     "developerName": "MakeMyTrip",
     "installationState": "installed",
-    "genres":"Social"
+    "genres": "Travel",
+    "region": "India"
   },
   {
     "title": "Housing Go",
     "url": "https://housing.com/",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532688919820-housinggo-housing-icon.png"
+        "src": "http://c.housingcdn.com/s/assets/logo-512.51d71d36.png"
       }
     ],
     "isPwa": 1,
     "description": "Search Property in India's first Map Based Real Estate Portal. Browse New projects, flats, ready to move apartments for rent and sale #Housing.com",
     "developerName": "Housing Go",
     "installationState": "installed",
-    "genres":"Music"
+    "genres": "General",
+    "region": "India"
   },
   {
     "title": "Swiggy",
     "url": "https://www.swiggy.com/",
     "icons": [
       {
-        "src": "https://d3frsattnbx5l6.cloudfront.net/1532679052373-icon-192x192.png"
+        "src": "https://res.cloudinary.com/swiggy/image/upload/portal/c/icon-512x512.png"
       }
     ],
     "isPwa": 1,
     "description": "Order food online from restaurants and get it delivered. Serving in Bangalore, Hyderabad, Delhi, Gurgaon, Jaipur, Chandigarh, Ahemdabad, Noida, Mumbai, Pune, Kolkata and Chennai.",
     "developerName": "Swiggy",
     "installationState": "installed",
-    "genres":"Video"
+    "genres": "Food & Drink",
+    "region": "India"
   },
   {
     "title": "Hungama",
@@ -319,7 +161,8 @@ const jsonData = [
     "description": "Your favourite artists, songs, & music videos – in one place. Listen to music online or download songs – wherever you are, whenever you wish!",
     "developerName": "Hungama Digital Media Entertainment Pvt. Ltd.",
     "installationState": "uninstalled",
-    "genres":"Video"
+    "genres": "Entertainment",
+    "region": "India"
   },
   {
     "title": "Spotify",
@@ -333,7 +176,8 @@ const jsonData = [
     "description": "Listen to new music, podcasts, and songs",
     "developerName": "Spotify Ltd.",
     "installationState": "uninstalled",
-    "genres":"Social"
+    "genres": "Entertainment",
+    "region": "Global"
   },
   {
     "title": "Amazon Music",
@@ -347,7 +191,8 @@ const jsonData = [
     "description": "Stream & Download The Songs You Love",
     "developerName": "Amazon Mobile LLC",
     "installationState": "uninstalled",
-    "genres":"Reading"
+    "genres": "Entertainment",
+    "region": "Global"
   },
   {
     "title": "Netflix",
@@ -361,7 +206,8 @@ const jsonData = [
     "description": "Looking for the most talked about TV shows and movies from the around the world? They’re all on Netflix.",
     "developerName": "Netflix, Inc.",
     "installationState": "uninstalled",
-    "genres":"Video"
+    "genres": "Entertainment",
+    "region": "Global"
   },
   {
     "title": "Amazon Prime Video",
@@ -375,8 +221,173 @@ const jsonData = [
     "description": "Watch movies and TV shows recommended for you, including Amazon Originals like The Marvelous Mrs. Maisel, Tom Clancy’s Jack Ryan, and the kids series Tumble Leaf.",
     "developerName": "Amazon Prime Video",
     "installationState": "uninstalled",
-    "genres":"Social"
+    "genres": "Entertainment",
+    "region": "Global"
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/?utm_source=pwa_homescreen",
+    "icons": [
+      {
+        "src": "https://www.instagram.com/static/images/ico/xxxhdpi_launcher.png/9fc4bab7565b.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Instagram is a simple way to capture and share the world's moments.",
+    "developerName": "Instagram",
+    "installationState": "installed",
+    "genres": "Social",
+    "region": "Global"
+  },
+  {
+    "title": "Pinterest",
+    "url": "https://in.pinterest.com/?utm_source=homescreen_icon",
+    "icons": [
+      {
+        "src": "https://s.pinimg.com/images/favicon_red_192.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+    "developerName": "Pinterest",
+    "installationState": "installed",
+    "genres": "Social",
+    "region": "Global"
+  },
+  {
+    "title": "WeatherApp",
+    "url": "https://murillo94.github.io/weather-pwa/",
+    "icons": [
+      {
+        "src": "https://murillo94.github.io/weather-pwa/icon_512x512.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Find out the current weather forecast in any city around the world.",
+    "developerName": "WeatherApp",
+    "installationState": "installed",
+    "genres": "News",
+    "region": "Global"
+  },
+  {
+    "title": "Financial Times",
+    "url": "https://app.ft.com/",
+    "icons": [
+      {
+        "src": "https://app.ft.com/dist/img/icons/xxhdpi.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "The latest UK and international business, finance, economic and political news, comment and analysis from the Financial Times optimised for your device on app.ft.com.",
+    "developerName": "Financial Times",
+    "installationState": "installed",
+    "genres": "News",
+    "region": "Global"
+  },
+  {
+    "title": "Airbnb",
+    "url": "https://www.airbnb.co.in/?utm_source=homescreen",
+    "icons": [
+      {
+        "src": "https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Vacation Rentals, Homes, Experiences & Places - Airbnb",
+    "developerName": "Airbnb",
+    "installationState": "installed",
+    "genres": "Travel",
+    "region": "Global"
+  },
+  {
+    "title": "Walmart Grocery",
+    "url": "https://grocery.walmart.com/",
+    "icons": [
+      {
+        "src": "https://grocery.walmart.com/js/pwa/icons/icon-512x512.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Grocery shopping. Reimagined. Order fresh groceries online with same-day pickup. We'll even load your car.",
+    "developerName": "Walmart Grocery",
+    "installationState": "installed",
+    "genres": "Shopping",
+    "region": "Global"
+  },
+  {
+    "title": "HackerNews Progressive Web App",
+    "url": "https://hackernews.io/",
+    "icons": [
+      {
+        "src": "https://hackernews.io/assets/images/ember-hn512-132941570a242b2561054d4e5c8d6bde.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "HackerNews Progressive Web App.",
+    "developerName": "HackerNews Progressive Web App",
+    "installationState": "installed",
+    "genres": "Shopping",
+    "region": "Global"
+  },
+  {
+    "title": "Tinder",
+    "url": "https://tinder.com/index.html?utm_source=homescreen",
+    "icons": [
+      {
+        "src": "https://tinder.com/static/android-chrome-512x512.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "With 20 billion matches to date, Tinder is the world’s most popular app for meeting new people.",
+    "developerName": "Tinder",
+    "installationState": "installed",
+    "genres": "Social",
+    "region": "Global"
+  },
+  {
+    "title": "9GAG",
+    "url": "https://m.9gag.com/",
+    "icons": [
+      {
+        "src": "https://assets-9gag-fun.9cache.com/s/fab0aa49/bcb236ad98b9dc8a94bf036732869d22f01f256a/static/dist/mobile8/img/launcher-icon-512.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "9GAG has the best funny pics, gifs, videos, gaming, anime, manga, movie, tv, cosplay, sport, food, memes, cute, fail, wtf photos on the internet!",
+    "developerName": "9GAG",
+    "installationState": "installed",
+    "genres": "Social",
+    "region": "Global"
+  },
+  {
+    "title": "Yumly",
+    "url": "https://www.yummly.com/?utm_source=manifest&utm_medium=homescreen",
+    "icons": [
+      {
+        "src": "https://www.yummly.com/img/icons/512.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "The smart cooking sidekick that learns what you like and customizes the experience to your personal tastes, nutritional needs, skill level, and more.",
+    "developerName": "Yumly",
+    "installationState": "installed",
+    "genres": "Food & Drink",
+    "region": "Global"
+  },
+  {
+    "title": "Google Maps",
+    "url": "https://www.google.com/maps",
+    "icons": [
+      {
+        "src": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_512x512.png"
+      }
+    ],
+    "isPwa": 1,
+    "description": "Get where you're going, faster",
+    "developerName": "Google Maps",
+    "installationState": "installed",
+    "genres": "Travel",
+    "region": "Global"
   }
 ]
-
 export default jsonData;

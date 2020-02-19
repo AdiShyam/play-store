@@ -35,7 +35,7 @@ class CategoryContainer extends React.Component {
     render() {
         return (
             <div className = "category-container">
-                <header className="app-store-header">Visteon App Store</header>
+                {/* <header className="app-store-header">Visteon App Store</header> */}
                 {this.renderCategoryContainer(this.props.appStoreObject)}
                 
             </div>
